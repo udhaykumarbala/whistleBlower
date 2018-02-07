@@ -23,7 +23,7 @@ include_once 'config.php';
            ?>
 
         
-        <option value="<?php echo $row['name'];?>" > <?php echo $row['name']; ?> </option>
+        <option value="<?php echo $row['id'];?>" > <?php echo $row['name']; ?> </option>
 
 <?php      
 }
@@ -38,6 +38,7 @@ include_once 'config.php';
 	<textarea name="notes"></textarea>
 	<br>
 	<input type="file" name="fileToUpload" id="fileToUpload">
+	<br>
 	<input type="submit" name="submit">
 </form>
 
